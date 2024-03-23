@@ -18,8 +18,8 @@ $ docker start sonarqube-flutter
 
 In the project you want to scan, create `sonar-project.properties`:
 ```
-sonar.projectKey=myproject
-sonar.projectName=myproject
+sonar.projectKey=<your project key>
+sonar.projectName=<your project name>
 sonar.projectVersion=1.0.0
 
 sonar.host.url=http://localhost:9000
