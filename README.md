@@ -22,10 +22,6 @@ sonar.projectKey=<your project key>
 sonar.projectName=<your project name>
 sonar.projectVersion=1.0.0
 
-sonar.host.url=http://localhost:9000
-
-sonar.login=<insert project token, starts with sgp_>
-
 sonar.sources=lib,pubspec.yaml
 sonar.tests=test
 sonar.sourceEncoding=UTF-8
@@ -39,5 +35,6 @@ sonar.exclusions=test/**/*_test.mocks.dart,lib/**/*.g.dart,lib/**/*.freezed.dart
 Install [sonar-scanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner/) to $PATH,  then run on root of Flutter project:
 ```
 $ flutter test --machine --coverage > tests.output
-$ sonar-scanner
+$ sonar-scanner -Dsonar.login=sgp_XXXXX -Dsonar.host.url=http://localhost:9000
 ```
+Supply project token on `sonar.login`.
