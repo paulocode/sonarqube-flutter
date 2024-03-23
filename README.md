@@ -32,7 +32,7 @@ sonar.sourceEncoding=UTF-8
 
 
 # exclude generated files
-sonar.exclusions=test/**/*_test.mocks.dart,lib/**/*.g.dart
+sonar.exclusions=test/**/*_test.mocks.dart,lib/**/*.g.dart,lib/**/*.freezed.dart
 ```
 
 ### Scan
