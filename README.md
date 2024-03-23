@@ -11,7 +11,7 @@ $ docker start sonarqube-flutter
 
 ### Setup
 1. Login to sonarqube (http://localhost:9000/), enable plugin (it will appear when you login)
-2. Create Project Manually -> Fill in project key -> Analyze Locally -> Generate
+2. Create project Manually -> Fill in project key -> Analyze Locally -> Generate project token
 3. Copy project token
 
 ### Local project setup
